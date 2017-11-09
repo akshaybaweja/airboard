@@ -1,1 +1,4 @@
 data/*
+*.pyc
+model.pkl
+classes.pkl
