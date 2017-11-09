@@ -2,3 +2,4 @@ data/*
 *.pyc
 model.pkl
 classes.pkl
+tmp.txt
