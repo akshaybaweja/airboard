@@ -6,7 +6,6 @@ import subprocess
 import sys
 import RPi.GPIO as GPIO
 from mpu6050 import mpu6050
-import time
 
 GPIO.setmode(GPIO.BCM)
 
@@ -245,7 +244,6 @@ try:
 			print_sentence_with_pointer(test_sentence, current_test_index)
 
 except KeyboardInterrupt: #When Ctrl+C is pressed, the loop terminates
-    GPIO.output(27, GPIO.LOW)
     GPIO.cleanup()  # clean up GPIO
     print 'CLOSED LOOP!'
 
