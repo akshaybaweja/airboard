@@ -31,7 +31,7 @@ sudo apt-get install python-matplotlib
 ```
 * scikit-learn
 ```
-pip install -U scikit-learn
+sudo pip install -U scikit-learn
 ```
 ## Acknowledgement
 You can find the original source code of the project made by [Federico Terzi](https://github.com/federico-terzi) - [gesture-keyboard](https://github.com/federico-terzi/gesture-keyboard)
