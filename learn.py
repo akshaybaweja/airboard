@@ -10,7 +10,7 @@ from sklearn.model_selection import GridSearchCV
 #Check if the module is executed as main, needed for parallel processing
 if __name__ == '__main__':
 	#List of parameters
-	SHOW_CONFUSION_MATRIX = False
+	SHOW_CONFUSION_MATRIX = True
 
 	x_data = []
 	y_data = []
