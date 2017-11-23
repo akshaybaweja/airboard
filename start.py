@@ -54,7 +54,7 @@ def print_sentence_with_pointer(sentence, position):
 #Sentence used to get samples because it contains all letters.
 #Sentence 1: the quick brown fox jumps over the lazy dog
 #Sentence 2: pack my box with five dozen liquor jugs
-test_sentence = "the quick brown fox jumps over the lazy dog"
+test_sentence = "the quick brown fox jumps over lazy dog"
 
 #Mode parameters, controlled using sys.argv by the terminal
 TRY_TO_PREDICT = False
